@@ -12,9 +12,12 @@ This code targets cross-channel automatic modulation classification (AMC) under 
 
 ## 1. Introduction
 
+Datasets are available at https://github.com/FireTracer/RML2025-Series
+
 In practical wireless communication scenarios, transmitted signals are affected by various channel impairments such as multipath fading, Doppler shift, carrier frequency offset, and sampling rate offset. These impairments lead to severe performance degradation when a model trained on one channel condition is directly applied to another.
 
-AFLNet addresses this problem by explicitly enhancing the discriminability of the target-domain feature space before and during domain alignment, enabling robust cross-channel modulation classification.
+AFLNet addresses this problem by explicitly enhancing the discriminability of the target-domain feature space before and during domain alignment, enabling robust cross-channel modulation classification. 
+
 
 ------------------------------------------------------------
 
